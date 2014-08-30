@@ -3,6 +3,12 @@ Pull data from OpenTSDB and present in Dashing. Support both graph and number wi
 http://opentsdb.net/docs/build/html/api_http/query/index.html
 
 ##Usage
+
+The quick and easy way is to install via dashings support for gists:
+`dashing install 01ade12ae650a77fc8d5`
+
+If you prefer the manual way here's how:
+
 1. Copy `opentsdb.rb` to jobs directory
 
 2. Make sure the required gems are installed
