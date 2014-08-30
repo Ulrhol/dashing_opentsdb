@@ -1,5 +1,6 @@
 ##OpenTSDB Support for Dashing
-Pull data from OpenTSDB and present in Dashing. Support both graph and number widget. Examples for how to write OpenTSDB Sub Queries can be found at http://opentsdb.net/docs/build/html/api_http/query/index.html
+Pull data from OpenTSDB and present in Dashing. Support both graph and number widget. Examples for how to write OpenTSDB Sub Queries can be found at 
+http://opentsdb.net/docs/build/html/api_http/query/index.html
 
 ##Usage
 1. Copy `opentsdb.rb` to jobs directory
@@ -26,7 +27,7 @@ job_mapping = {
 ```
 
 4. Configure dashboard to use your data.
-Add to your dashboard file, for instance `dashboards/sample.erb`)
+Add to your dashboard file, for instance `dashboards/sample.erb`
 
 ```
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
